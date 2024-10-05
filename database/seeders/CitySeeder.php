@@ -1,0 +1,117 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use App\Models\City;
+
+class CitySeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        City::insert([
+            ['name' => 'Bangalore', 'state_id' => 1],
+            ['name' => 'Los Angeles', 'state_id' => 2],
+            ['name' => 'Toronto', 'state_id' => 3],
+            ['name' => 'New York', 'state_id' => 4],
+            ['name' => 'Mumbai', 'state_id' => 1],
+            ['name' => 'Chicago', 'state_id' => 5],
+            ['name' => 'Vancouver', 'state_id' => 3],
+            ['name' => 'Paris', 'state_id' => 6],
+            ['name' => 'Berlin', 'state_id' => 7],
+            ['name' => 'Sydney', 'state_id' => 8],
+            ['name' => 'Melbourne', 'state_id' => 8],
+            ['name' => 'Dubai', 'state_id' => 9],
+            ['name' => 'Beijing', 'state_id' => 10],
+            ['name' => 'Tokyo', 'state_id' => 11],
+            ['name' => 'Seoul', 'state_id' => 12],
+            ['name' => 'Mexico City', 'state_id' => 13],
+            ['name' => 'Buenos Aires', 'state_id' => 14],
+            ['name' => 'Sao Paulo', 'state_id' => 15],
+            ['name' => 'Rio de Janeiro', 'state_id' => 15],
+            ['name' => 'London', 'state_id' => 16],
+            ['name' => 'Edinburgh', 'state_id' => 17],
+            ['name' => 'Rome', 'state_id' => 18],
+            ['name' => 'Milan', 'state_id' => 18],
+            ['name' => 'Madrid', 'state_id' => 19],
+            ['name' => 'Barcelona', 'state_id' => 19],
+            ['name' => 'Athens', 'state_id' => 20],
+            ['name' => 'Istanbul', 'state_id' => 21],
+            ['name' => 'Ankara', 'state_id' => 21],
+            ['name' => 'Karachi', 'state_id' => 22],
+            ['name' => 'Lahore', 'state_id' => 22],
+            ['name' => 'Dhaka', 'state_id' => 23],
+            ['name' => 'Colombo', 'state_id' => 24],
+            ['name' => 'Kathmandu', 'state_id' => 25],
+            ['name' => 'Jakarta', 'state_id' => 26],
+            ['name' => 'Bangkok', 'state_id' => 27],
+            ['name' => 'Hanoi', 'state_id' => 28],
+            ['name' => 'Kuala Lumpur', 'state_id' => 29],
+            ['name' => 'Singapore', 'state_id' => 30],
+            ['name' => 'Dubai', 'state_id' => 9],
+            ['name' => 'Abu Dhabi', 'state_id' => 9],
+            ['name' => 'Doha', 'state_id' => 31],
+            ['name' => 'Riyadh', 'state_id' => 32],
+            ['name' => 'Jeddah', 'state_id' => 32],
+            ['name' => 'Cairo', 'state_id' => 33],
+            ['name' => 'Alexandria', 'state_id' => 33],
+            ['name' => 'Nairobi', 'state_id' => 34],
+            ['name' => 'Lagos', 'state_id' => 35],
+            ['name' => 'Cape Town', 'state_id' => 36],
+            ['name' => 'Johannesburg', 'state_id' => 36],
+            ['name' => 'Tehran', 'state_id' => 37],
+            ['name' => 'Baghdad', 'state_id' => 38],
+            ['name' => 'Damascus', 'state_id' => 39],
+            ['name' => 'Amman', 'state_id' => 40],
+            ['name' => 'Beirut', 'state_id' => 41],
+            ['name' => 'Jerusalem', 'state_id' => 42],
+            ['name' => 'Kuwait City', 'state_id' => 43],
+            ['name' => 'Muscat', 'state_id' => 44],
+            ['name' => 'Manama', 'state_id' => 45],
+            ['name' => 'Sanaa', 'state_id' => 46],
+            ['name' => 'Tashkent', 'state_id' => 47],
+            ['name' => 'Bishkek', 'state_id' => 48],
+            ['name' => 'Astana', 'state_id' => 49],
+            ['name' => 'Baku', 'state_id' => 50],
+            ['name' => 'Yerevan', 'state_id' => 51],
+            ['name' => 'Tbilisi', 'state_id' => 52],
+            ['name' => 'Warsaw', 'state_id' => 53],
+            ['name' => 'Krakow', 'state_id' => 53],
+            ['name' => 'Budapest', 'state_id' => 54],
+            ['name' => 'Vienna', 'state_id' => 55],
+            ['name' => 'Prague', 'state_id' => 56],
+            ['name' => 'Bratislava', 'state_id' => 57],
+            ['name' => 'Zagreb', 'state_id' => 58],
+            ['name' => 'Belgrade', 'state_id' => 59],
+            ['name' => 'Sarajevo', 'state_id' => 60],
+            ['name' => 'Ljubljana', 'state_id' => 61],
+            ['name' => 'Skopje', 'state_id' => 62],
+            ['name' => 'Tirana', 'state_id' => 63],
+            ['name' => 'Podgorica', 'state_id' => 64],
+            ['name' => 'Tallinn', 'state_id' => 65],
+            ['name' => 'Riga', 'state_id' => 66],
+            ['name' => 'Vilnius', 'state_id' => 67],
+            ['name' => 'Helsinki', 'state_id' => 68],
+            ['name' => 'Oslo', 'state_id' => 69],
+            ['name' => 'Stockholm', 'state_id' => 70],
+            ['name' => 'Copenhagen', 'state_id' => 71],
+            ['name' => 'Reykjavik', 'state_id' => 72],
+            ['name' => 'Luxembourg City', 'state_id' => 73],
+            ['name' => 'Brussels', 'state_id' => 74],
+            ['name' => 'Amsterdam', 'state_id' => 75],
+            ['name' => 'Lisbon', 'state_id' => 76],
+            ['name' => 'Porto', 'state_id' => 76],
+            ['name' => 'Zurich', 'state_id' => 77],
+            ['name' => 'Geneva', 'state_id' => 77],
+            ['name' => 'Monaco', 'state_id' => 78],
+            ['name' => 'Vatican City', 'state_id' => 79],
+        ]);
+        
+    }
+}
